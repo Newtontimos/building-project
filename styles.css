@@ -62,8 +62,7 @@ nav{
     padding: 20px;
     position: sticky;
     top: 106px;
-
-
+    width: 100%;
 }
 nav ul{
     white-space: nowrap;
@@ -72,6 +71,7 @@ nav ul{
     flex-wrap: wrap;
     justify-content: space-between;
     list-style-type: none;
+    width: 100%;
 }
 nav li{
     font-size:24px;
@@ -85,12 +85,11 @@ nav li a{
     
 }
 main{
-    max-width: 100%;
     width: 100%;
     margin: 80px auto;
     padding: 0 40px;
     box-sizing: border-box;
-    background-color: burlywood;
+   /* background-color: burlywood;*/
 }
 article h2{
     color: blue;
@@ -186,9 +185,6 @@ section.timothy p::first-letter{
     margin: 12px 0;
 
 }
-    header{
-        position: relative;
-    }
     nav{
         top:0;
     }
